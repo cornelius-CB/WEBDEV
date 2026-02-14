@@ -1,17 +1,10 @@
-function banking(amount, ACCno, BankName){
-
-if(amount >= 100 && ACCno == 1180 && BankName == "KCB"){
-  return "Withdrawn successfully";
-}
-
-else if (amount > 0 && amount < 100 && ACCno == 1180 && BankName == "KCB"){
-  return "Deposited successfully";
-} 
-
-else{
-  return "failed! invalid credentials";
-}
-}
-
-let result = banking(10,1180,"KCB");
-console.log(result);
+//arrays filter
+//checking the existence of an element in an array
+//object
+//accessing items in an object
+//task management system
+//method to add  a new task
+//function to delete task
+//function to mark  taskAsCompleted
+//function to display taks 
+//function to displayAllPENDING TASK
